@@ -2,9 +2,9 @@ import datetime
 import sys
 from pathlib import Path
 
-from utils.api_response import ApiResponse
-
 sys.path.insert(0, str(Path(__file__).parent.absolute()))
+
+from utils.api_response import ApiResponse
 
 from typing import Optional
 from fastapi import FastAPI
