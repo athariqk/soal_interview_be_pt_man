@@ -1,3 +1,3 @@
-from .schedule_controller import ScheduleController, ApiResponse, UserScheduleResponse
+from .schedule_controller import ScheduleController, ApiResponse, UserSchedulesResponse
 
-__all__ = ["ScheduleController", "ApiResponse", "UserScheduleResponse"]
+__all__ = ["ScheduleController", "ApiResponse", "UserSchedulesResponse"]
